@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369C0A892AC65E1200982F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0A882AC65E1200982F98 /* AppDelegate.swift */; };
+		369C0A8B2AC65E1200982F98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0A8A2AC65E1200982F98 /* SceneDelegate.swift */; };
+		369C0A8D2AC65E1200982F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0A8C2AC65E1200982F98 /* ViewController.swift */; };
+		369C0A902AC65E1200982F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369C0A8E2AC65E1200982F98 /* Main.storyboard */; };
+		369C0A922AC65E1300982F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369C0A912AC65E1300982F98 /* Assets.xcassets */; };
+		369C0A952AC65E1300982F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369C0A932AC65E1300982F98 /* LaunchScreen.storyboard */; };
+		369C0AA02AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0A9F2AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift */; };
+		369C0AAA2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AA92AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift */; };
+		369C0AAC2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AAB2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		369C0A9C2AC65E1300982F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369C0A7D2AC65E1200982F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369C0A842AC65E1200982F98;
+			remoteInfo = "Google IMA SDK for iOS";
+		};
+		369C0AA62AC65E1300982F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369C0A7D2AC65E1200982F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369C0A842AC65E1200982F98;
+			remoteInfo = "Google IMA SDK for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		369C0A852AC65E1200982F98 /* Google IMA SDK for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google IMA SDK for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C0A882AC65E1200982F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		369C0A8A2AC65E1200982F98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		369C0A8C2AC65E1200982F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		369C0A8F2AC65E1200982F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		369C0A912AC65E1300982F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		369C0A942AC65E1300982F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		369C0A962AC65E1300982F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369C0A9B2AC65E1300982F98 /* Google IMA SDK for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google IMA SDK for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C0A9F2AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_IMA_SDK_for_iOSTests.swift; sourceTree = "<group>"; };
+		369C0AA52AC65E1300982F98 /* Google IMA SDK for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google IMA SDK for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C0AA92AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_IMA_SDK_for_iOSUITests.swift; sourceTree = "<group>"; };
+		369C0AAB2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_IMA_SDK_for_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369C0A822AC65E1200982F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0A982AC65E1300982F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0AA22AC65E1300982F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369C0A7C2AC65E1200982F98 = {
+			isa = PBXGroup;
+			children = (
+				369C0A872AC65E1200982F98 /* Google IMA SDK for iOS */,
+				369C0A9E2AC65E1300982F98 /* Google IMA SDK for iOSTests */,
+				369C0AA82AC65E1300982F98 /* Google IMA SDK for iOSUITests */,
+				369C0A862AC65E1200982F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369C0A862AC65E1200982F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369C0A852AC65E1200982F98 /* Google IMA SDK for iOS.app */,
+				369C0A9B2AC65E1300982F98 /* Google IMA SDK for iOSTests.xctest */,
+				369C0AA52AC65E1300982F98 /* Google IMA SDK for iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369C0A872AC65E1200982F98 /* Google IMA SDK for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				369C0A882AC65E1200982F98 /* AppDelegate.swift */,
+				369C0A8A2AC65E1200982F98 /* SceneDelegate.swift */,
+				369C0A8C2AC65E1200982F98 /* ViewController.swift */,
+				369C0A8E2AC65E1200982F98 /* Main.storyboard */,
+				369C0A912AC65E1300982F98 /* Assets.xcassets */,
+				369C0A932AC65E1300982F98 /* LaunchScreen.storyboard */,
+				369C0A962AC65E1300982F98 /* Info.plist */,
+			);
+			path = "Google IMA SDK for iOS";
+			sourceTree = "<group>";
+		};
+		369C0A9E2AC65E1300982F98 /* Google IMA SDK for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				369C0A9F2AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift */,
+			);
+			path = "Google IMA SDK for iOSTests";
+			sourceTree = "<group>";
+		};
+		369C0AA82AC65E1300982F98 /* Google IMA SDK for iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				369C0AA92AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift */,
+				369C0AAB2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Google IMA SDK for iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369C0A842AC65E1200982F98 /* Google IMA SDK for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C0AAF2AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOS" */;
+			buildPhases = (
+				369C0A812AC65E1200982F98 /* Sources */,
+				369C0A822AC65E1200982F98 /* Frameworks */,
+				369C0A832AC65E1200982F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google IMA SDK for iOS";
+			productName = "Google IMA SDK for iOS";
+			productReference = 369C0A852AC65E1200982F98 /* Google IMA SDK for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		369C0A9A2AC65E1300982F98 /* Google IMA SDK for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C0AB22AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOSTests" */;
+			buildPhases = (
+				369C0A972AC65E1300982F98 /* Sources */,
+				369C0A982AC65E1300982F98 /* Frameworks */,
+				369C0A992AC65E1300982F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369C0A9D2AC65E1300982F98 /* PBXTargetDependency */,
+			);
+			name = "Google IMA SDK for iOSTests";
+			productName = "Google IMA SDK for iOSTests";
+			productReference = 369C0A9B2AC65E1300982F98 /* Google IMA SDK for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		369C0AA42AC65E1300982F98 /* Google IMA SDK for iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C0AB52AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOSUITests" */;
+			buildPhases = (
+				369C0AA12AC65E1300982F98 /* Sources */,
+				369C0AA22AC65E1300982F98 /* Frameworks */,
+				369C0AA32AC65E1300982F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369C0AA72AC65E1300982F98 /* PBXTargetDependency */,
+			);
+			name = "Google IMA SDK for iOSUITests";
+			productName = "Google IMA SDK for iOSUITests";
+			productReference = 369C0AA52AC65E1300982F98 /* Google IMA SDK for iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369C0A7D2AC65E1200982F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					369C0A842AC65E1200982F98 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					369C0A9A2AC65E1300982F98 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 369C0A842AC65E1200982F98;
+					};
+					369C0AA42AC65E1300982F98 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 369C0A842AC65E1200982F98;
+					};
+				};
+			};
+			buildConfigurationList = 369C0A802AC65E1200982F98 /* Build configuration list for PBXProject "Google IMA SDK for iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 369C0A7C2AC65E1200982F98;
+			productRefGroup = 369C0A862AC65E1200982F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369C0A842AC65E1200982F98 /* Google IMA SDK for iOS */,
+				369C0A9A2AC65E1300982F98 /* Google IMA SDK for iOSTests */,
+				369C0AA42AC65E1300982F98 /* Google IMA SDK for iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369C0A832AC65E1200982F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C0A952AC65E1300982F98 /* LaunchScreen.storyboard in Resources */,
+				369C0A922AC65E1300982F98 /* Assets.xcassets in Resources */,
+				369C0A902AC65E1200982F98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0A992AC65E1300982F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0AA32AC65E1300982F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369C0A812AC65E1200982F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C0A8D2AC65E1200982F98 /* ViewController.swift in Sources */,
+				369C0A892AC65E1200982F98 /* AppDelegate.swift in Sources */,
+				369C0A8B2AC65E1200982F98 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0A972AC65E1300982F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C0AA02AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C0AA12AC65E1300982F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C0AAC2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift in Sources */,
+				369C0AAA2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		369C0A9D2AC65E1300982F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369C0A842AC65E1200982F98 /* Google IMA SDK for iOS */;
+			targetProxy = 369C0A9C2AC65E1300982F98 /* PBXContainerItemProxy */;
+		};
+		369C0AA72AC65E1300982F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369C0A842AC65E1200982F98 /* Google IMA SDK for iOS */;
+			targetProxy = 369C0AA62AC65E1300982F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		369C0A8E2AC65E1200982F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369C0A8F2AC65E1200982F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		369C0A932AC65E1300982F98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369C0A942AC65E1300982F98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369C0AAD2AC65E1300982F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		369C0AAE2AC65E1300982F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369C0AB02AC65E1300982F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Google IMA SDK for iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		369C0AB12AC65E1300982F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Google IMA SDK for iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		369C0AB32AC65E1300982F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google IMA SDK for iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Google IMA SDK for iOS";
+			};
+			name = Debug;
+		};
+		369C0AB42AC65E1300982F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google IMA SDK for iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Google IMA SDK for iOS";
+			};
+			name = Release;
+		};
+		369C0AB62AC65E1300982F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google IMA SDK for iOS";
+			};
+			name = Debug;
+		};
+		369C0AB72AC65E1300982F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phincon.Google-IMA-SDK-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google IMA SDK for iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369C0A802AC65E1200982F98 /* Build configuration list for PBXProject "Google IMA SDK for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C0AAD2AC65E1300982F98 /* Debug */,
+				369C0AAE2AC65E1300982F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C0AAF2AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C0AB02AC65E1300982F98 /* Debug */,
+				369C0AB12AC65E1300982F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C0AB22AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C0AB32AC65E1300982F98 /* Debug */,
+				369C0AB42AC65E1300982F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C0AB52AC65E1300982F98 /* Build configuration list for PBXNativeTarget "Google IMA SDK for iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C0AB62AC65E1300982F98 /* Debug */,
+				369C0AB72AC65E1300982F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369C0A7D2AC65E1200982F98 /* Project object */;
+}
