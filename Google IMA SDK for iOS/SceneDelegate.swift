@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Google IMA SDK for iOS
 //
-//  Created by Phincon on 29/09/23.
+//  Created by Agnes Triselia Yudia on 29/09/23.
 //
 
 import UIKit

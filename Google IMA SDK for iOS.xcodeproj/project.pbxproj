@@ -16,6 +16,11 @@
 		369C0AA02AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0A9F2AC65E1300982F98 /* Google_IMA_SDK_for_iOSTests.swift */; };
 		369C0AAA2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AA92AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift */; };
 		369C0AAC2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AAB2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift */; };
+		369C0ABD2AC6696400982F98 /* GoogleInteractiveMediaAds in Frameworks */ = {isa = PBXBuildFile; productRef = 369C0ABC2AC6696400982F98 /* GoogleInteractiveMediaAds */; };
+		369C0AC52AC6838100982F98 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AC42AC6838100982F98 /* VideoViewController.swift */; };
+		369C0AC72AC683C300982F98 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AC62AC683C300982F98 /* Video.swift */; };
+		369C0AC92AC6859E00982F98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C0AC82AC6859E00982F98 /* Constants.swift */; };
+		369C0ACC2AC68A4E00982F98 /* bip.png in Resources */ = {isa = PBXBuildFile; fileRef = 369C0ACB2AC68A4E00982F98 /* bip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		369C0AA52AC65E1300982F98 /* Google IMA SDK for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google IMA SDK for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		369C0AA92AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_IMA_SDK_for_iOSUITests.swift; sourceTree = "<group>"; };
 		369C0AAB2AC65E1300982F98 /* Google_IMA_SDK_for_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_IMA_SDK_for_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		369C0AB92AC65F2800982F98 /* GoogleInteractiveMediaAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleInteractiveMediaAds.xcframework; path = ../../Downloads/GoogleInteractiveMediaAds.xcframework; sourceTree = "<group>"; };
+		369C0AC42AC6838100982F98 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		369C0AC62AC683C300982F98 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		369C0AC82AC6859E00982F98 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		369C0ACB2AC68A4E00982F98 /* bip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bip.png; path = "../../../../Downloads/googleads-ima-ios-main/Swift/AdvancedExample/bip.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369C0ABD2AC6696400982F98 /* GoogleInteractiveMediaAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,7 @@
 				369C0A9E2AC65E1300982F98 /* Google IMA SDK for iOSTests */,
 				369C0AA82AC65E1300982F98 /* Google IMA SDK for iOSUITests */,
 				369C0A862AC65E1200982F98 /* Products */,
+				369C0AB82AC65F2800982F98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +111,13 @@
 		369C0A872AC65E1200982F98 /* Google IMA SDK for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				369C0ACA2AC689F900982F98 /* Images */,
 				369C0A882AC65E1200982F98 /* AppDelegate.swift */,
 				369C0A8A2AC65E1200982F98 /* SceneDelegate.swift */,
 				369C0A8C2AC65E1200982F98 /* ViewController.swift */,
+				369C0AC42AC6838100982F98 /* VideoViewController.swift */,
+				369C0AC62AC683C300982F98 /* Video.swift */,
+				369C0AC82AC6859E00982F98 /* Constants.swift */,
 				369C0A8E2AC65E1200982F98 /* Main.storyboard */,
 				369C0A912AC65E1300982F98 /* Assets.xcassets */,
 				369C0A932AC65E1300982F98 /* LaunchScreen.storyboard */,
@@ -127,6 +143,22 @@
 			path = "Google IMA SDK for iOSUITests";
 			sourceTree = "<group>";
 		};
+		369C0AB82AC65F2800982F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369C0AB92AC65F2800982F98 /* GoogleInteractiveMediaAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		369C0ACA2AC689F900982F98 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				369C0ACB2AC68A4E00982F98 /* bip.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +175,9 @@
 			dependencies = (
 			);
 			name = "Google IMA SDK for iOS";
+			packageProductDependencies = (
+				369C0ABC2AC6696400982F98 /* GoogleInteractiveMediaAds */,
+			);
 			productName = "Google IMA SDK for iOS";
 			productReference = 369C0A852AC65E1200982F98 /* Google IMA SDK for iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 369C0A7C2AC65E1200982F98;
+			packageReferences = (
+				369C0ABB2AC6696400982F98 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */,
+			);
 			productRefGroup = 369C0A862AC65E1200982F98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				369C0A952AC65E1300982F98 /* LaunchScreen.storyboard in Resources */,
+				369C0ACC2AC68A4E00982F98 /* bip.png in Resources */,
 				369C0A922AC65E1300982F98 /* Assets.xcassets in Resources */,
 				369C0A902AC65E1200982F98 /* Main.storyboard in Resources */,
 			);
@@ -260,7 +299,10 @@
 			files = (
 				369C0A8D2AC65E1200982F98 /* ViewController.swift in Sources */,
 				369C0A892AC65E1200982F98 /* AppDelegate.swift in Sources */,
+				369C0AC52AC6838100982F98 /* VideoViewController.swift in Sources */,
 				369C0A8B2AC65E1200982F98 /* SceneDelegate.swift in Sources */,
+				369C0AC72AC683C300982F98 /* Video.swift in Sources */,
+				369C0AC92AC6859E00982F98 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +638,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		369C0ABB2AC6696400982F98 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		369C0ABC2AC6696400982F98 /* GoogleInteractiveMediaAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 369C0ABB2AC6696400982F98 /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-ios" */;
+			productName = GoogleInteractiveMediaAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 369C0A7D2AC65E1200982F98 /* Project object */;
 }
